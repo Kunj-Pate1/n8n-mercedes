@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1001",
+    "workflowName": "HubSpot to Stripe Sync",
+    "status": "success",
+    "duration": 240,
+    "startedAt": "2026-07-24T10:00:00Z"
+  },
+  {
+    "id": "1002",
+    "workflowName": "Daily Database Backup",
+    "status": "success",
+    "duration": 1850,
+    "startedAt": "2026-07-24T11:15:00Z"
+  },
+  {
+    "id": "1003",
+    "workflowName": "HubSpot to Stripe Sync",
+    "status": "failed",
+    "duration": 45,
+    "startedAt": "2026-07-24T11:30:00Z"
+  },
+  {
+    "id": "1004",
+    "workflowName": "Slack Alert Router",
+    "status": "success",
+    "duration": 110,
+    "startedAt": "2026-07-24T12:05:00Z"
+  },
+  {
+    "id": "1005",
+    "workflowName": "OpenAI Email Classifier",
+    "status": "success",
+    "duration": 920,
+    "startedAt": "2026-07-24T13:40:00Z"
+  },
+  {
+    "id": "1006",
+    "workflowName": "HubSpot to Stripe Sync",
+    "status": "success",
+    "duration": 310,
+    "startedAt": "2026-07-24T14:10:00Z"
+  },
+  {
+    "id": "1007",
+    "workflowName": "Customer Onboarding Mailer",
+    "status": "failed",
+    "duration": 85,
+    "startedAt": "2026-07-24T15:00:00Z"
+  },
+  {
+    "id": "1008",
+    "workflowName": "Slack Alert Router",
+    "status": "success",
+    "duration": 95,
+    "startedAt": "2026-07-24T15:45:00Z"
+  },
+  {
+    "id": "1009",
+    "workflowName": "OpenAI Email Classifier",
+    "status": "running",
+    "duration": 0,
+    "startedAt": "2026-07-24T17:18:00Z"
+  },
+  {
+    "id": "1010",
+    "workflowName": "Daily Database Backup",
+    "status": "success",
+    "duration": 1910,
+    "startedAt": "2026-07-24T17:10:00Z"
+  }
+]
