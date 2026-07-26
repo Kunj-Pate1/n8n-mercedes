@@ -10,4 +10,4 @@ def get_info_data():
 
 @router.get("/")
 def base_root():
-    return "Hello"
+    return "API Backend"
