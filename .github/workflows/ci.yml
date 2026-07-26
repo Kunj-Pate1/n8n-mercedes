@@ -16,6 +16,10 @@ jobs:
     name: Backend Check
     runs-on: ubuntu-latest
 
+    env:
+        FRONTEND_URL: ${{ secrets.FRONTEND_URL }}
+
+
     defaults:
       run:
         working-directory: backend
