@@ -45,7 +45,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-        FRONTEND_URL: ${{ secrets.BACKEND_URL }}
+        VITE_BACKEND_URL: ${{ secrets.BACKEND_URL }}
 
     defaults:
       run:
