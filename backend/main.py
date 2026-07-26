@@ -5,6 +5,7 @@ import asyncio
 
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
+from config import settings
 
 
 @asynccontextmanager
@@ -26,7 +27,8 @@ async def lifespan(app: FastAPI):
 app = FastAPI(lifespan=lifespan)
 
 origins = [
-    "http://localhost:5173",  
+    settings.FRONTEND_URL
+
 ]
 
 app.add_middleware(
