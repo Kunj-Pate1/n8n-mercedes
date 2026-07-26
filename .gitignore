@@ -1,1 +1,6 @@
 .env
+__pycache__/
+*.pyc
+backend/venv
+backend/.venv
+frotend/node_modules
