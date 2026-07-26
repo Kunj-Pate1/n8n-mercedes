@@ -44,6 +44,9 @@ jobs:
     name: Frontend Check
     runs-on: ubuntu-latest
 
+    env:
+        FRONTEND_URL: ${{ secrets.BACKEND_URL }}
+
     defaults:
       run:
         working-directory: frontend
