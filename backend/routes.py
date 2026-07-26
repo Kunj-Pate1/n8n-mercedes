@@ -1,13 +1,13 @@
-from fastapi import FastAPI
+from fastapi import APIRouter
 from analytics import *
 
-app = FastAPI()
+router = APIRouter()
 
 
-@app.get("/api/n8n-analytics/")
+@router.get("/api/n8n-analytics/")
 def get_info_data():
-    return {"sucess_rate":get_successRate(),"failure_rate":get_failureRate(),"Average Duration":get_averageDuration()}
+    return {"success_rate":get_successRate(),"failure_rate":get_failureRate(),"average_duration":get_averageDuration()}
 
-@app.get("/")
+@router.get("/")
 def base_root():
     return "Hello"
