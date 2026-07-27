@@ -21,6 +21,8 @@ https://n8n-mercedes.vercel.app/
 Backend:
 https://n8n-analytics-mha2.onrender.com/
 
+(There could be syncing and loading delays as render web services go to sleep after 15 minutes of no use and take 30 to 60 seconds to wake up (a cold start))
+
 Analytics API:
 
 ```
